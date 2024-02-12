@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SKE10
+D 4A Isolated DC/DC Converter Module, fixed 5V Output Voltage, 9-36V Input Voltage
+K Traco isolated DC/DC Converter module
+F http://www.tracopower.com/products/ten20win.pdf
+$ENDCMP
+#
+#End Doc Library

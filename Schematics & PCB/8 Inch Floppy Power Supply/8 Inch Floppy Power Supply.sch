@@ -1,0 +1,356 @@
+EESchema Schematic File Version 5
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+Comment5 ""
+Comment6 ""
+Comment7 ""
+Comment8 ""
+Comment9 ""
+$EndDescr
+Text Label 1225 1825 0    50   ~ 0
+DCDC_FGND
+Text Label 1225 1525 0    50   ~ 0
+DCDC_OUT+
+Wire Wire Line
+	1225 1525 1250 1525
+$Comp
+L power:GND #PWR01
+U 1 1 5F29DE62
+P 1725 1850
+F 0 "#PWR01" H 1725 1600 50  0001 C CNN
+F 1 "GND" H 1730 1677 50  0000 C CNN
+F 2 "" H 1725 1850 50  0001 C CNN
+F 3 "" H 1725 1850 50  0001 C CNN
+	1    1725 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1225 1825 1725 1825
+Text GLabel 1675 1525 2    50   Output ~ 0
++24V_DC
+Wire Wire Line
+	1225 1725 1675 1725
+Text Label 1225 1725 0    50   ~ 0
+DCDC_OUT-
+Text GLabel 1675 1725 2    50   Input ~ 0
++24V_GND
+Text GLabel 3425 925  1    50   Input ~ 0
++24V_DC
+Text GLabel 3425 1325 3    50   Output ~ 0
++24V_GND
+Wire Wire Line
+	3425 925  3425 950 
+Wire Wire Line
+	3425 1275 3425 1300
+Wire Wire Line
+	4100 3075 4150 3075
+Wire Wire Line
+	4100 2175 4150 2175
+Wire Wire Line
+	4100 2575 4150 2575
+Text GLabel 4150 2575 2    50   Output ~ 0
+-5V_DC
+Text GLabel 4150 2175 2    50   Input ~ 0
+-5V_GND
+Text GLabel 4500 1325 3    50   Output ~ 0
++5V_GND
+Text GLabel 5425 1350 3    50   Input ~ 0
+-5V_DC
+Text GLabel 4500 925  1    50   Input ~ 0
++5V_DC
+Wire Wire Line
+	4500 925  4500 950 
+Wire Wire Line
+	4500 1275 4500 1300
+Text GLabel 4150 3075 2    50   Output ~ 0
++5V_DC
+Text GLabel 4150 3475 2    50   Input ~ 0
++5V_GND
+Wire Wire Line
+	4100 3475 4150 3475
+Wire Wire Line
+	3425 950  3925 950 
+Wire Wire Line
+	3925 950  3925 975 
+Connection ~ 3425 950 
+Wire Wire Line
+	3425 950  3425 975 
+Wire Wire Line
+	3925 1275 3925 1300
+Wire Wire Line
+	3925 1300 3425 1300
+Connection ~ 3425 1300
+Wire Wire Line
+	3425 1300 3425 1325
+Text GLabel 5425 950  1    50   Output ~ 0
+-5V_GND
+Wire Wire Line
+	5425 1300 5425 1325
+Wire Wire Line
+	5425 950  5425 975 
+Wire Wire Line
+	4500 950  4925 950 
+Wire Wire Line
+	4925 950  4925 975 
+Connection ~ 4500 950 
+Wire Wire Line
+	4500 950  4500 975 
+Wire Wire Line
+	4500 1300 4925 1300
+Wire Wire Line
+	4925 1300 4925 1275
+Connection ~ 4500 1300
+Wire Wire Line
+	4500 1300 4500 1325
+Wire Wire Line
+	5425 975  5875 975 
+Wire Wire Line
+	5875 975  5875 1000
+Connection ~ 5425 975 
+Wire Wire Line
+	5425 975  5425 1000
+Wire Wire Line
+	5425 1325 5875 1325
+Wire Wire Line
+	5875 1325 5875 1300
+Connection ~ 5425 1325
+Wire Wire Line
+	5425 1325 5425 1350
+Text GLabel 5950 2675 2    50   Input ~ 0
++24V_DC
+Text GLabel 5350 2675 0    50   Output ~ 0
++24V_GND
+Text GLabel 5350 2475 0    50   Output ~ 0
+-5V_GND
+Text GLabel 5950 2475 2    50   Input ~ 0
+-5V_DC
+Text GLabel 5350 2375 0    50   Output ~ 0
++5V_GND
+$Comp
+L power:GND #PWR0102
+U 1 1 5F32EBAD
+P 4875 2625
+F 0 "#PWR0102" H 4875 2375 50  0001 C CNN
+F 1 "GND" H 4880 2452 50  0000 C CNN
+F 2 "" H 4875 2625 50  0001 C CNN
+F 3 "" H 4875 2625 50  0001 C CNN
+	1    4875 2625
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4875 2575 4875 2625
+Wire Wire Line
+	5900 2675 5950 2675
+Wire Wire Line
+	5350 2675 5400 2675
+Wire Wire Line
+	5350 2375 5400 2375
+Wire Wire Line
+	5350 2475 5400 2475
+Wire Wire Line
+	1225 1625 1250 1625
+Wire Wire Line
+	1250 1525 1250 1625
+Connection ~ 1250 1525
+Wire Wire Line
+	1250 1525 1675 1525
+$Comp
+L power:GND #PWR0101
+U 1 1 5F32AF3B
+P 6375 2625
+F 0 "#PWR0101" H 6375 2375 50  0001 C CNN
+F 1 "GND" H 6380 2452 50  0000 C CNN
+F 2 "" H 6375 2625 50  0001 C CNN
+F 3 "" H 6375 2625 50  0001 C CNN
+	1    6375 2625
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6375 2625 6375 2575
+Wire Wire Line
+	5900 2475 5950 2475
+Wire Wire Line
+	5900 2375 5950 2375
+Wire Wire Line
+	5900 2575 6375 2575
+Wire Wire Line
+	4875 2575 5400 2575
+Wire Wire Line
+	1725 1825 1725 1850
+Text GLabel 3050 2175 0    50   Input ~ 0
++24V_DC
+Text GLabel 3050 3075 0    50   Input ~ 0
++24V_DC
+Text GLabel 3050 3475 0    50   Output ~ 0
++24V_GND
+Wire Wire Line
+	3050 3075 3100 3075
+Wire Wire Line
+	3050 3475 3100 3475
+Wire Wire Line
+	3050 2175 3100 2175
+Text GLabel 3050 2575 0    50   Output ~ 0
++24V_GND
+Wire Wire Line
+	3050 2575 3075 2575
+Wire Wire Line
+	3100 2375 3075 2375
+Wire Wire Line
+	3075 2375 3075 2575
+Connection ~ 3075 2575
+Wire Wire Line
+	3075 2575 3100 2575
+Text GLabel 5950 2375 2    50   Input ~ 0
++5V_DC
+Text GLabel 1300 2625 2    50   Input ~ 0
++5V_DC
+Text GLabel 1300 2725 2    50   Output ~ 0
++5V_GND
+Wire Wire Line
+	1225 2625 1300 2625
+Wire Wire Line
+	1225 2725 1300 2725
+$Comp
+L Connector_Generic:Conn_01x02 J1
+U 1 1 5F2AE4CB
+P 1025 2725
+F 0 "J1" H 943 2400 50  0000 C CNN
+F 1 "AUX" H 943 2491 50  0000 C CNN
+F 2 "Connectors_Molex:Molex_NanoFit_1x02x2.50mm_Angled" H 1025 2725 50  0001 C CNN
+F 3 "" H 1025 2725 50  0001 C CNN
+F 4 "Molex 1053131202" H 1025 2725 50  0001 C CNN "Type"
+	1    1025 2725
+	-1   0    0    1   
+$EndComp
+$Comp
+L device:C C8
+U 1 1 5F3284CD
+P 5875 1150
+F 0 "C8" H 5990 1196 50  0000 L CNN
+F 1 "330n" H 5990 1105 50  0000 L CNN
+F 2 "Capacitors_THT:C_Disc_D5.1mm_W3.2mm_P5.00mm" H 5913 1000 50  0001 C CNN
+F 3 "" H 5875 1150 50  0001 C CNN
+F 4 "C322C474M5U5TA+" H 5875 1150 50  0001 C CNN "Type"
+	1    5875 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:C C6
+U 1 1 5F328227
+P 4925 1125
+F 0 "C6" H 5040 1171 50  0000 L CNN
+F 1 "330n" H 5040 1080 50  0000 L CNN
+F 2 "Capacitors_THT:C_Disc_D5.1mm_W3.2mm_P5.00mm" H 4963 975 50  0001 C CNN
+F 3 "" H 4925 1125 50  0001 C CNN
+F 4 "C322C474M5U5TA+" H 4925 1125 50  0001 C CNN "Type"
+	1    4925 1125
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:CP C7
+U 1 1 5F32AB34
+P 5425 1150
+F 0 "C7" H 5543 1196 50  0000 L CNN
+F 1 "220u" H 5543 1105 50  0000 L CNN
+F 2 "Capacitors_THT:CP_Radial_D8.0mm_P3.50mm" H 5463 1000 50  0001 C CNN
+F 3 "" H 5425 1150 50  0001 C CNN
+F 4 "SY006M0220BZF-0611" H 5425 1150 50  0001 C CNN "Type"
+	1    5425 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:C C4
+U 1 1 5F318111
+P 3925 1125
+F 0 "C4" H 4040 1171 50  0000 L CNN
+F 1 "1u" H 4040 1080 50  0000 L CNN
+F 2 "Capacitors_THT:C_Disc_D7.5mm_W4.4mm_P5.00mm" H 3963 975 50  0001 C CNN
+F 3 "" H 3925 1125 50  0001 C CNN
+F 4 "C330C105M5U5TA+" H 3925 1125 50  0001 C CNN "Type"
+	1    3925 1125
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:CP C5
+U 1 1 5F2683C4
+P 4500 1125
+F 0 "C5" H 4618 1171 50  0000 L CNN
+F 1 "470u" H 4618 1080 50  0000 L CNN
+F 2 "Capacitors_THT:CP_Radial_D8.0mm_P3.50mm" H 4538 975 50  0001 C CNN
+F 3 "" H 4500 1125 50  0001 C CNN
+F 4 "SY006M0470B3F-0811" H 4500 1125 50  0001 C CNN "Type"
+	1    4500 1125
+	1    0    0    -1  
+$EndComp
+$Comp
+L 8_Inch_Floppy_Power_Supply:SKE10 U2
+U 1 1 5F2FFADF
+P 3600 3275
+F 0 "U2" H 3600 3742 50  0000 C CNN
+F 1 "SKE10B-05" H 3600 3651 50  0000 C CNN
+F 2 "Converter_DCDC:Converter_DCDC_TRACO_TEN10-xxxx_Single_THT" H 4200 2875 50  0001 C CIN
+F 3 "" H 3600 3275 50  0001 C CNN
+F 4 "Mean Well SKE10B-05" H 3600 3275 50  0001 C CNN "Type"
+	1    3600 3275
+	1    0    0    -1  
+$EndComp
+$Comp
+L Converter_DCDC:NCS1S1205SC U1
+U 1 1 5F2F267E
+P 3600 2375
+F 0 "U1" H 3600 2842 50  0000 C CNN
+F 1 "SPAN02B-05" H 3600 2751 50  0000 C CNN
+F 2 "Converter_DCDC:Converter_DCDC_TRACO_TMR-xxxx_THT" H 3600 1975 50  0001 C CNN
+F 3 "" H 3575 2375 50  0001 C CNN
+F 4 "Mean Well SPAN02B-05" H 3600 2375 50  0001 C CNN "Type"
+	1    3600 2375
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:CP C3
+U 1 1 5F26739B
+P 3425 1125
+F 0 "C3" H 3543 1171 50  0000 L CNN
+F 1 "2200u" H 3543 1080 50  0000 L CNN
+F 2 "Capacitors_THT:CP_Radial_D16.0mm_P7.50mm" H 3463 975 50  0001 C CNN
+F 3 "" H 3425 1125 50  0001 C CNN
+F 4 "SY035M2200B7F-1632" H 3425 1125 50  0001 C CNN "Type"
+	1    3425 1125
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Specialized:Screw_Terminal_01x04 J2
+U 1 1 5F23301E
+P 1025 1625
+F 0 "J2" H 943 1100 50  0000 C CNN
+F 1 "IN" H 943 1191 50  0000 C CNN
+F 2 "8 Inch Floppy Power Supply:Degson DG950-9.5-04P-1Y-00AH" H 1025 1625 50  0001 C CNN
+F 3 "" H 1025 1625 50  0001 C CNN
+F 4 "2x Degson DG950-9.5-02P-14-00AH" H 1025 1625 50  0001 C CNN "Type"
+	1    1025 1625
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x04_Top_Bottom J3
+U 1 1 5F249C7D
+P 5600 2475
+F 0 "J3" H 5650 2050 50  0000 C CNN
+F 1 "OUT" H 5650 2141 50  0000 C CNN
+F 2 "Connectors_Molex:Molex_Microfit3_Header_02x04_Angled_43045-080x" H 5600 2475 50  0001 C CNN
+F 3 "" H 5600 2475 50  0001 C CNN
+F 4 "Molex 430450800" H 5600 2475 50  0001 C CNN "Type"
+	1    5600 2475
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
