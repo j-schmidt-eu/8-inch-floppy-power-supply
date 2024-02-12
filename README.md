@@ -162,18 +162,6 @@ If you are within the EU, you may want to consider choosing AISLER as your PCB m
 Go through the available cables to see if one matches the requirments of your drive. If that is the case, the drive will very likely work.**
 
 
-##### Can I build and use this for personal, non-commercial purposes?
->**Yes.**
-
-
-##### Can I build and use this for work in a non-profit organization?
->**[Please contact me.](https://mailhide.io/e/egvcl)**
-
-
-##### Can I build and use this for work in a commercial setting?
->**[Please contact me.](https://mailhide.io/e/egvcl)**
-
-
 ## Licensing
 This project is licensed under the [CC BY-NC-ND 4.0 license](LICENSE).
 
